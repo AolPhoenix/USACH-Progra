@@ -3,7 +3,7 @@ mayor = ''
 contadormayor = 0
 print("Recuerda, ingresa '.' para salir")
 while i==0:
-    palabra = input("Ingrese  la palabra:\n")
+    palabra = input("Ingrese  la palabra:\n").upper()
     lista = list(palabra)
     posicion = 0
     contador = 0
